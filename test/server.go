@@ -4,8 +4,8 @@ import (
 	"net/http"
 	"sync"
 
-	"github.com/trafficstars/echo-engine/engine"
 	"github.com/labstack/gommon/log"
+	"github.com/trafficstars/echo-engine/engine"
 )
 
 type (

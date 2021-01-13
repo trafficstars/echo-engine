@@ -9,9 +9,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/trafficstars/echo-engine"
 	"github.com/labstack/gommon/color"
 	isatty "github.com/mattn/go-isatty"
+	"github.com/trafficstars/echo-engine"
 	"github.com/valyala/fasttemplate"
 )
 

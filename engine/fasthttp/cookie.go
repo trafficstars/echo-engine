@@ -55,10 +55,10 @@ func (c *Cookie) SameSite() http.SameSite {
 }
 
 var (
-	sameSiteHttp2FastHttpMap = map[http.SameSite]fasthttp.CookieSameSite {
-		http.SameSiteNoneMode: fasthttp.CookieSameSiteDisabled,
-		http.SameSiteLaxMode: fasthttp.CookieSameSiteLaxMode,
-		http.SameSiteStrictMode: fasthttp.CookieSameSiteStrictMode,
+	sameSiteHttp2FastHttpMap = map[http.SameSite]fasthttp.CookieSameSite{
+		http.SameSiteNoneMode:    fasthttp.CookieSameSiteDisabled,
+		http.SameSiteLaxMode:     fasthttp.CookieSameSiteLaxMode,
+		http.SameSiteStrictMode:  fasthttp.CookieSameSiteStrictMode,
 		http.SameSiteDefaultMode: fasthttp.CookieSameSiteDefaultMode,
 	}
 	sameSiteFastHttp2HttpMap map[fasthttp.CookieSameSite]http.SameSite

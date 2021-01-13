@@ -5,8 +5,8 @@ import (
 	"io"
 	"sync"
 
-	"github.com/trafficstars/echo-engine"
 	"github.com/labstack/gommon/bytes"
+	"github.com/trafficstars/echo-engine"
 )
 
 type (

@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"runtime"
 
-	"github.com/trafficstars/echo-engine"
 	"github.com/labstack/gommon/color"
+	"github.com/trafficstars/echo-engine"
 )
 
 type (

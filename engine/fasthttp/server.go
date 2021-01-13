@@ -5,10 +5,10 @@ package fasthttp
 import (
 	"sync"
 
+	glog "github.com/labstack/gommon/log"
 	"github.com/trafficstars/echo-engine"
 	"github.com/trafficstars/echo-engine/engine"
 	"github.com/trafficstars/echo-engine/log"
-	glog "github.com/labstack/gommon/log"
 	"github.com/valyala/fasthttp"
 )
 
