@@ -11,7 +11,7 @@ import (
 	"github.com/trafficstars/echo-engine"
 	"github.com/trafficstars/echo-engine/engine"
 	"github.com/trafficstars/echo-engine/log"
-	"github.com/trafficstars/fasthttp"
+	"github.com/valyala/fasthttp"
 )
 
 type (

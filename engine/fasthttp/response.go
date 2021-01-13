@@ -6,7 +6,7 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/trafficstars/fasthttp"
+	"github.com/valyala/fasthttp"
 
 	"github.com/trafficstars/echo-engine/engine"
 	"github.com/trafficstars/echo-engine/log"

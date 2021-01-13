@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/trafficstars/fasthttp"
+	"github.com/valyala/fasthttp"
 )
 
 type (

@@ -9,7 +9,7 @@ import (
 	"github.com/trafficstars/echo-engine/engine"
 	"github.com/trafficstars/echo-engine/log"
 	glog "github.com/labstack/gommon/log"
-	"github.com/trafficstars/fasthttp"
+	"github.com/valyala/fasthttp"
 )
 
 type (
